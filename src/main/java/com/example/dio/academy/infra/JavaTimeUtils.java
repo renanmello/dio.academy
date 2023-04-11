@@ -4,6 +4,8 @@ import java.time.format.DateTimeFormatter;
 public class JavaTimeUtils {
     private JavaTimeUtils() {}
 
+
+
     private  static final Locale LOCALE_BR = new Locale("pt", "BR");
 
     public static final DateTimeFormatter LOCAL_DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss", LOCALE_BR);
